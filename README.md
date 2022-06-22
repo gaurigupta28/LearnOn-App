@@ -22,4 +22,4 @@ Admin can Upload assignments by each class and subject. He is remove and add Stu
 
 ### Student Pages
 
-<img src="image/Student_dashboard.jpg" width="200">  <img src="notification.jpg" width="200"><img src="image/student_nav.jpg" width="200">  <img src="image/student_profile.jpg" width="200">
+<img src="image/Student_dashboard.jpg" width="200">  <img src="image/notification.jpg" width="200"><img src="image/student_nav.jpg" width="200">  <img src="image/student_profile.jpg" width="200">
