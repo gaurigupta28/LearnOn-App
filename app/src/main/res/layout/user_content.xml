@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txname"
+            android:textSize="25dp"
+            android:textColor="@color/purple"
+            android:text="XYZ"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="HardcodedText,SpUsage" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/purple"
+                android:text="Class:-"
+                android:layout_marginStart="10dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/txclass"
+                android:textSize="15sp"
+                android:textColor="@color/purple"
+                android:text="1"
+
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:gravity="center_horizontal"
+                android:text="Roll Number:-"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txrollno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="12"
+                android:textColor="@color/purple"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="ClickAttendance"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/attendance1" />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="Attendance" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="ClickNotice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/notice" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="Notice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="ClickFee"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/fees1" />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="Fees Details" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="ClickSchoolBus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/schoolbus1" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="School Bus" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ClickExamResults"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/examresults1" />
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="ExamResults" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="ClickAssignments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/assignments1" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="Assignments" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="ClickTimeTable"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/timetable1" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="TimeTable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="ClickLibrary"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/library1" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:textSize="15sp"
+                android:text="Library" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="@color/purple"
+        android:text="Notice"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:background="@color/purple"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rvnotice"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/row_notice"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

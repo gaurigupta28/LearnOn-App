@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="10sp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvdownload"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:orientation="vertical"
+            android:background="@drawable/roundedborder"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/tvfilename"
+                android:layout_marginTop="10sp"
+                android:textSize="15dp"
+                android:layout_marginStart="20sp"
+                android:text="File Name"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:id="@+id/tvfile"
+                android:textSize="15dp"
+                android:layout_marginStart="20sp"
+                android:text="File"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:text="Download"
+                android:textSize="15dp"
+                android:layout_marginTop="0sp"
+                android:textAlignment="center"
+                android:textColor="#DD2C00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                tools:ignore="HardcodedText,SpUsage" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

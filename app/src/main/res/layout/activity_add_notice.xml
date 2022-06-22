@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddNotice">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:id="@+id/idllnotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notice:"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <EditText
+                    android:id="@+id/edtNotice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Holidays"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="28sp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/idllIsactive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idllnotice"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Is Active:"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <EditText
+                    android:id="@+id/edtIsactive"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/edtNotice"
+                    android:layout_marginStart="10dp"
+                    android:hint="1 or 0."
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/idllFullnotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idllIsactive"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Full Description:-"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <EditText
+                    android:id="@+id/edFulldescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edtIsactive"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10sp"
+                    android:hint="write Here...."
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_add_new_notice"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idllFullnotice"
+                android:layout_marginStart="55sp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/round_btn"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="Click Here"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

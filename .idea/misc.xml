@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/drawable-v24/homework.xml" value="0.2385" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_add_notice.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_add_time_table.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_others.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_parents.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_profile.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_student.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_study_work.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_admin_teacher.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_assignments.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_attendance.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_contact_us.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_exam_results.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_fee.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_full_details_notice.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_library.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_login.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_notice_details.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_register.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_school_bus.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_time_table.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_user_dashboard.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/activity_user_profile.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_content.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_nav_drawer.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_others_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_parents_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_profile_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_student_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_studywork_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_teacher_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/admin_toolbar.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/row_notice.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/student_rv_item.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/timetable_rv_item.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_assignments_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_attendance_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_contactus_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_content.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_examresults_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_fee_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_library_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_nav_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_profile_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_schoolbus_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Gauri/OneDrive/Documents/Android/LearnOnApp/app/src/main/res/layout/user_timetable_toolbar.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

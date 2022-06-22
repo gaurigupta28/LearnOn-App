@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/idll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User ID:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:id="@+id/id"
+                android:width="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ID"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idllname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idll"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying first name-->
+            <TextView
+                android:id="@+id/idTVName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/id"
+                android:layout_marginStart="10dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idllphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllname"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying first name-->
+            <!--text view for displaying last name-->
+            <TextView
+                android:id="@+id/idTVPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVName"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone Number"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idllemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllphone"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Email:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVPhone"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idllPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllemail"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVEmail"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idllAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllPassword"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVPassword"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/idllRollno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllAddress"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rollno:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVRollno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVAddress"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Roll NO"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/idllClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllRollno"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVRollno"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Class"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/idllCollage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllClass"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Collage:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVCollage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVClass"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Collage"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idllGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idllCollage"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Gender:"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+            <!--text view for displaying user email-->
+            <TextView
+                android:id="@+id/idTVGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVCollage"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Gender"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,UnknownId" />
+
+        </LinearLayout>
+        <View
+            android:layout_height="2dp"
+            android:layout_below="@id/idllGender"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@color/purple"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.SplashScreen">
+
+    <LinearLayout
+        android:padding="20sp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:ignore="MissingConstraints,UseCompoundDrawables"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/idIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/school_logo"
+            tools:ignore="ContentDescription,MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LearnOn"
+            android:textColor="@color/purple"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/idIV"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

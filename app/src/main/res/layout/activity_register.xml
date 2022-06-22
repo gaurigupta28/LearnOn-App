@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    tools:context=".Activities.RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/idll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5sp"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/idtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple"
+                android:gravity="center"
+                android:text="Users Register"
+                android:padding="10sp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/idIV"
+            tools:ignore="MissingConstraints,UnknownIdInLayout">
+
+            <EditText
+                android:id="@+id/ideditName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Name."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+            <EditText
+                android:id="@+id/ideditphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Number."
+                android:inputType="number"
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/ideditemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Email."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/editpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Password"
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+            <EditText
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Address."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:importantForAutofill="no"
+                android:inputType="TODO" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llrollno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/editrollno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Rollno."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+            <EditText
+                android:id="@+id/editclass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Class."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="Autofill,HardcodedText,TextFields"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llcollage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="@+id/idtv"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/editCollage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Collage."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llgender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="3sp"
+            android:background="@drawable/roundedborder2"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/idIV"
+            tools:ignore="MissingConstraints,UnknownIdInLayout">
+
+
+            <EditText
+                android:id="@+id/editgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Gender."
+                android:textColor="@color/purple"
+                android:textColorHint="#A8A8A8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="9dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/llgender"
+            tools:ignore="MissingConstraints,UnknownIdInLayout">
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:background="@drawable/rounded_btn2"
+                android:padding="10sp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,HardcodedText,InvalidId,MissingConstraints" />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/rounded_btn2"
+                android:padding="10sp"
+                android:text="LOGIN"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,HardcodedText,MissingConstraints" />
+
+        </LinearLayout>
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:ignore="MissingConstraints,ObsoleteLayoutParam" />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
